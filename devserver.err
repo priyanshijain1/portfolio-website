@@ -1,0 +1,2 @@
+- [33mwarn[39m Port 3000 is in use, trying 3001 instead.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
