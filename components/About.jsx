@@ -44,7 +44,7 @@ function About() {
             <span className="font-bold" style={{ color: "rgb(0, 0, 0)" }}>Priyanshi Jain</span>,
             a passionate web developer and problem solver. I am deeply interested in AI,
             full-stack development, and competitive programming. I specialize in building
-            intelligent applications using Next.js, FastAPI, and React, alongside strong
+            intelligent applications using Next.js, Node.js, FastAPI, and React.js, alongside strong
             foundations in Data Structures and Algorithms. I enjoy participating in hackathons,
             mentoring juniors, and pushing the boundaries of what web applications can do.
             <br /><br />

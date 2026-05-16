@@ -193,37 +193,63 @@ const experiences = [
   {
     title: "Competitive Programming",
     company_name: "LeetCode & CodeChef",
-    icon: "/assets/icons/competitive-programmer.svg",
+    icon: "/assets/icons/leetcode_logo.png",
     iconBg: "#FFFBE6",
     date: "Sep 2023 - Present",
     points: [
       "Solved 700+ Data Structures and Algorithms problems across various platforms.",
-      "Achieved a peak LeetCode rating of 1830, ranking in the top 7.5% globally.",
+      "Achieved the Knight badge on LeetCode with a peak rating of 1855, ranking in the top 6% globally among competitive programmers.",
       "Secured a Global Rank of 179 in CodeChef Starters 236 out of thousands of participants."
     ],
   },
   {
-    title: "Flipkart Runway & Google WE",
-    company_name: "Achievements & Scholarships",
-    icon: "/assets/icons/ai-enthusiast.svg",
+    title: "Mentorship",
+    company_name: "Codess.Cafe",
+    icon: "/assets/icons/codesscafe_logo.jpg",
     iconBg: "#FFFBE6",
-    date: "2024",
+    date: "2024 - Present",
     points: [
-      "Emerged as a Semi-finalist in Flipkart Runway, placing in the top 500 out of 40,000+ girls.",
-      "Selected for the Women Engineers program by Talentsprint (supported by Google).",
-      "Awarded a full scholarship of Rs.1,00,000 for the program."
+      "Selected as a mentee for the Codess.Cafe mentorship program from a pool of 2000+ applicants across India.",
+      "Engaged in weekly mentorship and peer-learning sessions focused on DSA, development, career growth, and interview preparation.",
+      "Collaborated with a community of aspiring women engineers through networking events, technical discussions, and accountability groups.",
+      "Enhanced consistency in competitive programming and project building through structured mentorship and community-driven learning initiatives."
     ],
   },
   {
-    title: "Full-Stack Mentorship",
-    company_name: "Codess Cafe & HackByte",
-    icon: "/assets/icons/full-stack.svg",
+    title: "Google WE Scholar",
+    company_name: "Google and TalentSprint",
+    icon: "/assets/icons/image.png",
     iconBg: "#FFFBE6",
     date: "2024 - 2026",
     points: [
-      "Selected as a mentee at Codess Cafe, engaging with top industry professionals.",
+      "Selected among 22,000+ applicants for the prestigious Women Engineers (WE) Program supported by Google.",
+      "Completed 100+ hours of intensive technical learning, mentorship, and problem-solving sessions in DSA and software development.",
+      "Collaborated with a peer network of 200+ women engineers across India through hackathons, mentoring circles, and community activities.",
+      "Strengthened problem-solving skills by consistently practicing coding challenges on platforms like LeetCode and Codeforces during the program."
+    ],
+  },
+  {
+    title: "Programming Mentor",
+    company_name: "The Programming Club, IIIT Jabalpur",
+    icon: "/assets/icons/tpc logo.png",
+    iconBg: "#FFFBE6",
+    date: "2024 - 2025",
+    points: [
       "Mentored 20+ juniors in programming, algorithms, and web development fundamentals.",
-      "Volunteered at HackByte 2.0, assisting in managing an event with 400+ registrations."
+      "Organised workshops on Data Structures, Algorithms, and Web Development, benefiting 100+ students.",
+      "Provided one-on-one mentoring sessions to students struggling with programming concepts.",
+    ],
+  },
+  {
+    title: "Student Guide",
+    company_name: "Counselling Committee, IIIT Jabalpur",
+    icon: "/assets/icons/IIITDM-Jabalpur.png",
+    iconBg: "#FFFBE6",
+    date: "2024 - 2025",
+    points: [
+      "Mentored 10+ juniors in academics and career planning as a Student Guide at IIIT Jabalpur.",
+      "Organised peer engagement sessions, fostering a supportive community for new students.",
+      "Received positive feedback for guidance and support provided to mentees."
     ],
   },
 ];
@@ -239,9 +265,9 @@ const projects = [
       { name: "mongodb", color: "pink-text-gradient" },
       { name: "redis", color: "orange-text-gradient" },
     ],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80",
-    source_code_link: "https://github.com/Priyanshi-Jain",
-    deployed_link: "#",
+    image: "/assets/projects/mythinkspire.png",
+    source_code_link: "https://github.com/priyanshijain1/Thinkspire",
+    deployed_link: "https://thinkspire.vercel.app/",
   },
   {
     name: "InternHub",
@@ -254,7 +280,7 @@ const projects = [
       { name: "gemini api", color: "orange-text-gradient" },
     ],
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
-    source_code_link: "https://github.com/Priyanshi-Jain",
+    source_code_link: "https://github.com/priyanshijain1/InternHub",
     deployed_link: "#",
   },
   {
@@ -266,47 +292,45 @@ const projects = [
       { name: "express.js", color: "green-text-gradient" },
       { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80",
-    source_code_link: "https://github.com/Priyanshi-Jain",
-    deployed_link: "#",
+    image: "/assets/projects/pennywise.png",
+    source_code_link: "https://github.com/priyanshijain1/PennyWise",
+    deployed_link: "https://pennywise-u38o.onrender.com/",
   },
   {
-    name: "CodeQuest",
+    name: "StarBoard",
     description:
-      "A competitive programming practice platform with curated problem sets, difficulty-based filtering, and progress tracking. Features streak tracking and topic-wise performance analytics.",
+      "Interactive dashboard with animated galaxy background and modular widgets",
     tags: [
-      { name: "next.js", color: "blue-text-gradient" },
-      { name: "postgresql", color: "green-text-gradient" },
-      { name: "prisma", color: "orange-text-gradient" },
+      { name: "HTML5", color: "blue-text-gradient" },
+      { name: "VanillaJS", color: "green-text-gradient" },
+      { name: "Spotify Web API", color: "orange-text-gradient" },
     ],
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
-    source_code_link: "https://github.com/Priyanshi-Jain",
+    image: "/assets/projects/mystarboard.png",
+    source_code_link: "https://github.com/priyanshijain1/Starboard",
     deployed_link: "#",
   },
   {
-    name: "NoteNest",
+    name: "ProdectiveNow",
     description:
-      "A real-time collaborative note-taking app with rich text editing, live cursors, and room-based sharing. Supports markdown, tagging, and version history.",
-    tags: [
-      { name: "react.js", color: "blue-text-gradient" },
-      { name: "socket.io", color: "green-text-gradient" },
-      { name: "node.js", color: "orange-text-gradient" },
-    ],
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80",
-    source_code_link: "https://github.com/Priyanshi-Jain",
-    deployed_link: "#",
-  },
-  {
-    name: "StyleSense",
-    description:
-      "An AI-powered outfit recommendation engine that analyzes wardrobe items via image upload and suggests outfits based on occasion, weather, and personal style preferences.",
+      "Developed ProductiveNow using React.js, integrating features like a habit tracker, health chart generator, and mood-based music player system to improve daily productivity and wellness.",
     tags: [
       { name: "react.js", color: "blue-text-gradient" },
-      { name: "fastapi", color: "green-text-gradient" },
-      { name: "gemini api", color: "orange-text-gradient" },
+      { name: "AntDesign", color: "green-text-gradient" }
     ],
-    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80",
-    source_code_link: "https://github.com/Priyanshi-Jain",
+    image: "/assets/projects/productivenow.png",
+    source_code_link: "https://gitlab.com/catalyst8283034/automation_productivity",
+    deployed_link: "#",
+  },
+  {
+    name: "GameShippers",
+    description:
+      "Developed Gameshippers, a Python-Pygame based game suite featuring strategy games like Battleship, Othello, and Latrunculi with interactive UI and game logic implementation.",
+    tags: [
+      { name: "python", color: "blue-text-gradient" },
+      { name: "pygame", color: "green-text-gradient" },
+    ],
+    image: "/assets/projects/gameshippers.png",
+    source_code_link: "https://gitlab.com/sahayak1/gameplay",
     deployed_link: "#",
   },
 ];

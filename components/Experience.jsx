@@ -74,7 +74,7 @@ function Experience() {
       <div className="pointer-events-none absolute left-[40%] top-0 h-60 w-60 rounded-full bg-[#5fdde8]/10 blur-xl" />
       <motion.div variants={textVariant()}>
         <p className={`sectionSubText text-center`}>What I have been building and achieving</p>
-        <h2 className={`sectionHeadText text-center`}>Highlights.</h2>
+        <h2 className={`sectionHeadText text-center`}>Highlights</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
