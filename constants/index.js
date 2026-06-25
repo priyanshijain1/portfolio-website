@@ -71,9 +71,9 @@ const technologies = {
       link: "https://www.typescriptlang.org/",
     },
     {
-      name: "C",
-      icon: "/assets/tech/c.svg",
-      link: "https://en.cppreference.com/w/c",
+      name: "C++",
+      icon: "/assets/tech/icons8-c++.svg",
+      link: "https://en.cppreference.com/cpp",
     },
     {
       name: "Java",
@@ -191,10 +191,22 @@ const technologies = {
 
 const experiences = [
   {
+    title: "SDE Intern",
+    company_name: "Meegrowlabs",
+    icon: "/assets/icons/meegrowlabs_logo.jpg",
+    iconBg: "#eee8d9",
+    date: "Sep 2023 - Present",
+    points: [
+      "Contributing features for a hyperlocal newsroom editorial console, including a real-time news feed, article management, and user engagement analytics.",
+      "Implemented frontend components and integrated backend APIs across editorial workflows, contributing to lead intake, content review, and draft management functionality.",
+      "Conducted UAT, debugging, and issue triaging across frontend and backend workflows, helping improve system reliability."
+    ],
+  },
+  {
     title: "Competitive Programming",
     company_name: "LeetCode & CodeChef",
     icon: "/assets/icons/leetcode_logo.png",
-    iconBg: "#FFFBE6",
+    iconBg: "#050505",
     date: "Sep 2023 - Present",
     points: [
       "Solved 700+ Data Structures and Algorithms problems across various platforms.",
@@ -206,7 +218,7 @@ const experiences = [
     title: "Mentorship",
     company_name: "Codess.Cafe",
     icon: "/assets/icons/codesscafe_logo.jpg",
-    iconBg: "#FFFBE6",
+    iconBg: "#fff8f1",
     date: "2024 - Present",
     points: [
       "Selected as a mentee for the Codess.Cafe mentorship program from a pool of 2000+ applicants across India.",
@@ -219,7 +231,7 @@ const experiences = [
     title: "Google WE Scholar",
     company_name: "Google and TalentSprint",
     icon: "/assets/icons/image.png",
-    iconBg: "#FFFBE6",
+    iconBg: "#fbfbff",
     date: "2024 - 2026",
     points: [
       "Selected among 22,000+ applicants for the prestigious Women Engineers (WE) Program supported by Google.",
@@ -232,7 +244,7 @@ const experiences = [
     title: "Programming Mentor",
     company_name: "The Programming Club, IIIT Jabalpur",
     icon: "/assets/icons/tpc logo.png",
-    iconBg: "#FFFBE6",
+    iconBg: "#050505",
     date: "2024 - 2025",
     points: [
       "Mentored 20+ juniors in programming, algorithms, and web development fundamentals.",
@@ -244,7 +256,8 @@ const experiences = [
     title: "Student Guide",
     company_name: "Counselling Committee, IIIT Jabalpur",
     icon: "/assets/icons/IIITDM-Jabalpur.png",
-    iconBg: "#FFFBE6",
+    iconBg: "#ffffff",
+    iconScale: 1.18,
     date: "2024 - 2025",
     points: [
       "Mentored 10+ juniors in academics and career planning as a Student Guide at IIIT Jabalpur.",

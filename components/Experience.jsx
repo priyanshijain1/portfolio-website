@@ -26,14 +26,19 @@ function ExperienceCard({ experience }) {
         boxShadow: "none",
       }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg, backgroundColor: "#fee6ff" }}
+      iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
-          <div className="w-[60%] h-[60%] relative">
+          <div
+            className="w-[78%] h-[78%] relative overflow-hidden rounded-full p-1.5"
+            style={{ background: experience.iconBg }}
+          >
             <Image
               src={experience.icon}
               alt={experience.company_name}
               fill={true}
+              className="object-contain p-1"
+              style={{ transform: `scale(${experience.iconScale || 1})` }}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 20vw"
             />
           </div>

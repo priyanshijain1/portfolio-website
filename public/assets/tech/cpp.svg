@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M64 8L112.5 36V92L64 120L15.5 92V36L64 8Z" fill="#00599C"/>
+  <path d="M64 8L112.5 36V92L64 120L15.5 92V36L64 8Z" fill="url(#cpp-a)"/>
+  <path d="M65.5 83.2C55 83.2 47.8 75.7 47.8 64.2C47.8 52.8 55 45.2 65.3 45.2C72.2 45.2 77.6 48.6 80.2 54.5L72.6 58.2C71.1 54.8 68.8 53.2 65.4 53.2C60.3 53.2 57.1 57.4 57.1 64.2C57.1 71 60.4 75.2 65.6 75.2C69.2 75.2 71.8 73.4 73.2 69.8L80.9 73.3C78.3 79.6 72.7 83.2 65.5 83.2Z" fill="white"/>
+  <path d="M82.5 61H89.5V54H94.2V61H101.2V65.7H94.2V72.7H89.5V65.7H82.5V61Z" fill="white"/>
+  <path d="M22.5 61H29.5V54H34.2V61H41.2V65.7H34.2V72.7H29.5V65.7H22.5V61Z" fill="white"/>
+  <defs>
+    <linearGradient id="cpp-a" x1="15.5" x2="112.5" y1="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#004482"/>
+      <stop offset="1" stop-color="#659AD2"/>
+    </linearGradient>
+  </defs>
+</svg>
