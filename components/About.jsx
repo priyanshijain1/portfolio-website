@@ -13,12 +13,7 @@ function About() {
       className="relative w-full min-h-[60vh] flex flex-row items-center justify-between gap-10 px-6 sm:px-16 py-20 max-w-6xl mx-auto"
     >
       {/* LEFT — Text content (takes up most of the space) */}
-      <div className="pointer-events-none absolute left-[-7rem] top-10 h-72 w-72 rounded-full bg-[#5fdde8]/15 blur-xl" />
-      <div className="pointer-events-none absolute right-[-5rem] bottom-6 h-80 w-80 rounded-full bg-[#ff4fa3]/12 blur-xl" />
-      <div className="pointer-events-none absolute left-[45%] top-1/2 h-52 w-52 -translate-y-1/2 rounded-full bg-[#ffd84d]/12 blur-xl" />
-      <div className="pointer-events-none absolute -left-20 bottom-20 h-96 w-96 rounded-full bg-[#a78bfa]/10 blur-xl" />
-      <div className="pointer-events-none absolute right-[10%] top-0 h-64 w-64 rounded-full bg-[#34d399]/10 blur-xl" />
-      <div className="pointer-events-none absolute left-[20%] -bottom-16 h-60 w-60 rounded-full bg-[#f472b6]/10 blur-xl" />
+      {/* Blobs removed */}
 
       <div className="relative z-10 flex-1 flex flex-col">
         <motion.div
@@ -27,8 +22,8 @@ function About() {
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}
         >
-          <p className="sectionSubText" style={{ color: "#37d6efff" }}>Introduction</p>
-          <h2 className="sectionHeadText" style={{ color: "rgb(12, 12, 0)" }}>About me</h2>
+          <p className="sectionSubText" style={{ color: "#00F3FF" }}>Introduction</p>
+          <h2 className="sectionHeadText">About me</h2>
         </motion.div>
 
         <motion.div
@@ -36,12 +31,11 @@ function About() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.25 }}
-          className="mt-4 text-[17px] leading-[30px] flex flex-col gap-6"
-          style={{ color: "#333" }}
+          className="mt-4 text-[17px] leading-[30px] flex flex-col gap-6 text-gray-300"
         >
           <p>
             Hello! I&apos;m{" "}
-            <span className="font-bold" style={{ color: "rgb(0, 0, 0)" }}>Priyanshi Jain</span>,
+            <span className="font-bold text-white">Priyanshi Jain</span>,
             a passionate web developer and problem solver. I am deeply interested in AI,
             full-stack development, and competitive programming. I specialize in building
             intelligent applications using Next.js, Node.js, FastAPI, and React.js, alongside strong
@@ -59,8 +53,7 @@ function About() {
               target="_blank"
               rel="noreferrer"
               title="priyanshijain1265@gmail.com"
-                className="w-8 h-8 hover:-translate-y-2 ease-in transition-all duration-100 cursor-pointer"
-                style={{ color: "#FFD700" }}
+                className="w-8 h-8 hover:-translate-y-2 ease-in transition-all duration-100 cursor-pointer text-accentCyan"
             >
               <EmailIcon className="w-full h-full" />
             </Link>
@@ -88,8 +81,7 @@ function About() {
                 href={social.link}
                 target="_blank"
                 key={social.id}
-              className="w-8 h-8 hover:-translate-y-2 ease-in transition-all duration-100 cursor-pointer"
-              style={{ color: "#FFD700" }}
+              className="w-8 h-8 hover:-translate-y-2 ease-in transition-all duration-100 cursor-pointer text-accentCyan"
               >
                 {social.icon}
               </Link>
@@ -106,7 +98,7 @@ function About() {
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
         className="relative z-10 hidden md:flex flex-col items-center gap-3 shrink-0"
-        style={{ width: "22%" }}
+        style={{ width: "32%" }}
       >
         <div
           className="relative overflow-hidden rounded-2xl border-4"

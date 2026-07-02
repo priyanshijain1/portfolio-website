@@ -9,7 +9,7 @@ function Hero({ loading, isMobile }) {
   return (
     <section
       className="relative w-full min-h-[100svh] mx-auto overflow-hidden"
-      style={{ background: "linear-gradient(135deg, #FF1493 0%, #FF69B4 40%, #FF1493 100%)" }}
+      style={{ background: "linear-gradient(180deg, #FF1493 0%, #FF69B4 40%, #FF1493 100%)" }}
     >
       {/* Decorative background blobs */}
       <div
@@ -97,13 +97,13 @@ function Hero({ loading, isMobile }) {
       </div>
 
       {/* Scroll arrow */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 hidden md:flex">
+      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20 hidden md:flex">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-2 border-white border-opacity-50 flex justify-center items-start p-2">
             <motion.div
               animate={{ y: [0, 24, 0] }}
               transition={{ duration: 1.5, repeat: Infinity, repeatType: "loop" }}
-              className="w-3 h-3 rounded-full bg-yellow-300 mb-1"
+              className="w-3 h-3 rounded-full bg-accentCyan mb-1"
             />
           </div>
         </a>

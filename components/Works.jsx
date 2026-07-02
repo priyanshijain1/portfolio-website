@@ -88,9 +88,7 @@ function ProjectCard({
 function Works() {
   return (
     <section className="relative xl:my-36 md:mx-36 p-8" id="projects">
-      <div className="pointer-events-none absolute -left-20 top-10 h-80 w-80 rounded-full bg-[#f472b6]/10 blur-xl" />
-      <div className="pointer-events-none absolute right-[-5rem] bottom-10 h-72 w-72 rounded-full bg-[#5fdde8]/10 blur-xl" />
-      <div className="pointer-events-none absolute left-[60%] -top-10 h-56 w-56 rounded-full bg-[#ffd84d]/10 blur-xl" />
+      {/* Blobs removed */}
       <motion.div
         variants={textVariant()}
         initial="hidden"
@@ -98,7 +96,7 @@ function Works() {
         viewport={{ once: true, amount: 0.25 }}
       >
         <p className={"sectionSubText"}>My work</p>
-        <h2 className={"sectionHeadText"}>Projects.</h2>
+        <h2 className={"sectionHeadText text-transparent bg-clip-text bg-gradient-to-r from-accentCyan to-accentPink drop-shadow-[0_0_10px_rgba(0,243,255,0.3)]"}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">

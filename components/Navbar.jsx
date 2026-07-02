@@ -23,7 +23,7 @@ function Navbar() {
 			>
 				<div className="w-full flex justify-between items-center max-w-7xl mx-auto">
 					<div className="flex items-center gap-3 sm:gap-4">
-						<div className="w-12 h-10 sm:w-14 sm:h-12 shrink-0 flex items-center justify-center overflow-hidden rounded-xl bg-white/95 shadow-[0_8px_22px_rgba(255,216,77,0.24)]">
+						<div className="w-12 h-10 sm:w-14 sm:h-12 shrink-0 flex items-center justify-center overflow-hidden rounded-xl bg-white/95 shadow-[0_8px_22px_rgba(255,20,147,0.3)]">
 							<PJLogo className="w-full h-full object-contain" />
 						</div>
 						<Link href="/">

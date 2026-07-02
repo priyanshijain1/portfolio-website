@@ -28,7 +28,7 @@ function Stars(props) {
 			>
 				<PointMaterial
 					transparent
-					color="#FFD700"
+					color="#00F3FF"
 					size={0.005}
 					sizeAttenuation={true}
 					depthWrite={false}
@@ -40,16 +40,13 @@ function Stars(props) {
 
 function StarsCanvas() {
 	return (
-		<div className="w-full h-auto absolute inset-0 z-[-1] bg-white">
+		<div className="w-full h-auto absolute inset-0 z-[-1] bg-transparent">
 			<Canvas
 				camera={{ position: [0, 0, 1] }}
 				dpr={[1, 2]}
 				gl={{
 					outputColorSpace: THREE.SRGBColorSpace,
 					alpha: true
-				}}
-				onCreated={({ gl }) => {
-					gl.setClearColor("#ffffff");
 				}}
 			>
 				<Suspense fallback={<CanvasLoader />}>

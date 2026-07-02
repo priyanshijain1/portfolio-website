@@ -37,15 +37,30 @@ function App({ loading }) {
   }, []);
 
   return (
-    <main className="relative z-0 w-full h-full">
-      {/* Sticky wrapper for Hero to create PowerPoint-like slide-over transition */}
-      <div className="sticky top-0 w-full h-screen -z-10">
+    <main className="relative z-0 w-full min-h-screen bg-bgPrimaryDark">
+      {/* Hero Wrapper */}
+      <div className="relative w-full z-20">
         <Navbar />
         <Hero loading={loading} isMobile={isMobile} />
       </div>
-      
-      {/* Subsequent sections have relative positioning and z-10 to scroll OVER the sticky Hero */}
-      <div className="w-full bg-white relative z-10 shadow-[0_-10px_30px_rgba(0,0,0,0.1)]">
+      {/* Dripping "Cake Frosting" Transition from Hero to Dark Mode */}
+      <div className="w-full absolute top-[100vh] left-0 z-0 pointer-events-none" style={{ transform: 'translateY(-1px)' }}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          preserveAspectRatio="none"
+          className="w-full h-[60px] sm:h-[120px]"
+        >
+          <path
+            fill="#FF1493"
+            fillOpacity="1"
+            d="M0,64L48,85.3C96,107,192,149,288,149.3C384,149,480,107,576,96C672,85,768,107,864,133.3C960,160,1056,192,1152,192C1248,192,1344,160,1392,144L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+
+      {/* Subsequent sections */}
+      <div className="w-full relative z-10 pt-8">
         <About />
         <Services />
         <Experience />

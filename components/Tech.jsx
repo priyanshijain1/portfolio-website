@@ -48,6 +48,7 @@ function Tech() {
                 alt={tech.name}
                 fill={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 20vw"
+                style={{ filter: ["Github", "Framer-motion","Three.js" , "Prisma"].includes(tech.name) ? "brightness(0) invert(1)" : "none" }}
               />
 
               <div className="opacity-0 w-fit min-w-[80px] bg-bgPrimaryLight text-ctnPrimaryLight text-center text-xs rounded-lg py-2 absolute z-10 group-hover:opacity-100 px-3 -top-3/4 -left-1/3 pointer-events-none">
@@ -68,10 +69,7 @@ function Tech() {
 
   return (
     <section className="relative w-full h-fit p-8 mt-20" id="skills">
-      <div className="pointer-events-none absolute -left-16 top-10 h-80 w-80 rounded-full bg-[#5fdde8]/10 blur-xl" />
-      <div className="pointer-events-none absolute right-[-4rem] bottom-10 h-72 w-72 rounded-full bg-[#ff4fa3]/10 blur-xl" />
-      <div className="pointer-events-none absolute left-[60%] top-0 h-56 w-56 rounded-full bg-[#ffd84d]/10 blur-xl" />
-      <div className="pointer-events-none absolute left-[30%] bottom-0 h-64 w-64 rounded-full bg-[#a78bfa]/10 blur-xl" />
+      {/* Blobs removed */}
 
       <motion.div
         variants={textVariant()}
@@ -81,7 +79,7 @@ function Tech() {
         className="text-center mx-auto"
       >
         <p className={"sectionSubText"}>What I have learnt so far</p>
-        <h2 className={"sectionHeadText"}>Skills</h2>
+        <h2 className={"sectionHeadText text-transparent bg-clip-text bg-gradient-to-r from-accentCyan to-accentPink drop-shadow-[0_0_10px_rgba(0,243,255,0.3)]"}>Skills</h2>
       </motion.div>
 
       <motion.div
@@ -100,7 +98,7 @@ function Tech() {
         >
           {techNames}
         </motion.div>
-        <div className="w-[2px] h-[400px] bg-ctnSecondaryLight rounded-lg md:flex hidden mx-8" />
+        <div className="w-[2px] h-[400px] bg-white rounded-lg md:flex hidden mx-8" />
         <div className="md:w-[80%] w-full pl-2 h-full flex flex-col gap-8">
           {languages}
         </div>

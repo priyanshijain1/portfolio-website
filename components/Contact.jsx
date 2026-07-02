@@ -76,11 +76,11 @@ function Contact() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
-      className="xl:my-36 md:w-2/5 w-full bg-white xl:ml-36 lg:ml-16 md:ml-10 p-8 rounded-2xl shadow-lg"
+      className="xl:my-36 md:w-2/5 w-full bg-black/40 backdrop-blur-md border border-white/10 xl:ml-36 lg:ml-16 md:ml-10 p-8 rounded-2xl shadow-card"
       id="contact"
     >
-      <p className={"sectionSubText"} style={{ color: "#FFD700" }}>Get in touch</p>
-      <h3 className={"sectionHeadText"} style={{ color: "#1a1a1a" }}>Contact.</h3>
+      <p className={"sectionSubText"} style={{ color: "#00F3FF" }}>Get in touch</p>
+      <h3 className={"sectionHeadText"}>Contact.</h3>
 
       <form
         ref={formRef}
@@ -88,7 +88,7 @@ function Contact() {
         className="mt-8 flex flex-col gap-8"
       >
         <label className="flex flex-col">
-          <span className="text-gray-700 font-medium mb-4">
+          <span className="text-gray-300 font-medium mb-4">
             Your Name
           </span>
           <input
@@ -98,11 +98,11 @@ function Contact() {
             onChange={handleChange}
             required
             placeholder="What is your good name?"
-            className="bg-gray-50 py-4 px-6 placeholder:text-gray-400 rounded-lg outline-none border border-gray-100 font-medium text-gray-700 focus:border-yellow-400 transition-colors"
+            className="bg-white/5 py-4 px-6 placeholder:text-gray-500 rounded-lg outline-none border border-white/10 font-medium text-white focus:border-accentCyan transition-colors"
           />
         </label>
         <label className="flex flex-col">
-          <span className="text-gray-700 font-medium mb-4">
+          <span className="text-gray-300 font-medium mb-4">
             Your email
           </span>
           <input
@@ -112,11 +112,11 @@ function Contact() {
             onChange={handleChange}
             required
             placeholder="What is your email address?"
-            className="bg-gray-50 py-4 px-6 placeholder:text-gray-400 rounded-lg outline-none border border-gray-100 font-medium text-gray-700 focus:border-yellow-400 transition-colors"
+            className="bg-white/5 py-4 px-6 placeholder:text-gray-500 rounded-lg outline-none border border-white/10 font-medium text-white focus:border-accentCyan transition-colors"
           />
         </label>
         <label className="flex flex-col">
-          <span className="text-gray-700 font-medium mb-4">
+          <span className="text-gray-300 font-medium mb-4">
             Your Message
           </span>
           <textarea
@@ -126,14 +126,14 @@ function Contact() {
             onChange={handleChange}
             required
             placeholder="What do you want to say?"
-            className="bg-gray-50 py-4 px-6 placeholder:text-gray-400 rounded-lg outline-none border border-gray-100 font-medium text-gray-700 focus:border-yellow-400 transition-colors"
+            className="bg-white/5 py-4 px-6 placeholder:text-gray-500 rounded-lg outline-none border border-white/10 font-medium text-white focus:border-accentCyan transition-colors"
           />
         </label>
 
         <button
           type="submit"
-          style={{ background: "linear-gradient(135deg, #FFD700, #FFB300)" }}
-          className="py-3 px-8 rounded-full outline-none w-fit text-white font-bold shadow-lg hover:shadow-yellow-200 hover:-translate-y-1 transition-all duration-300"
+          style={{ background: "linear-gradient(135deg, #00F3FF, #0088FF)" }}
+          className="py-3 px-8 rounded-full outline-none w-fit text-white font-bold shadow-card hover:-translate-y-1 transition-all duration-300"
         >
           {loading ? "Sending..." : "Send"}
         </button>

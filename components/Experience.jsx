@@ -15,12 +15,14 @@ function ExperienceCard({ experience }) {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "linear-gradient(135deg, #e6faff 0%, #e6faff 100%)",
-        color: "#4b5563",
-        boxShadow: "0 10px 20px -5px rgba(0, 221, 255, 0.42)",
+        background: "rgba(15, 23, 42, 0.8)",
+        backdropFilter: "blur(10px)",
+        border: "1px solid rgba(0, 243, 255, 0.3)",
+        color: "#F3F4F6",
+        boxShadow: "0 10px 30px -5px rgba(0, 243, 255, 0.5)",
       }}
       contentArrowStyle={{
-        borderRight: "7px solid #e6faff",
+        borderRight: "7px solid rgba(255, 255, 255, 0.1)",
       }}
       style={{
         boxShadow: "none",
@@ -74,16 +76,14 @@ function ExperienceCard({ experience }) {
 function Experience() {
   return (
     <motion.section className="relative w-full p-8 mt-20">
-      <div className="pointer-events-none absolute -left-16 top-20 h-72 w-72 rounded-full bg-[#ffd84d]/10 blur-xl" />
-      <div className="pointer-events-none absolute right-[-4rem] bottom-0 h-80 w-80 rounded-full bg-[#34d399]/10 blur-xl" />
-      <div className="pointer-events-none absolute left-[40%] top-0 h-60 w-60 rounded-full bg-[#5fdde8]/10 blur-xl" />
+      {/* Blobs removed */}
       <motion.div variants={textVariant()}>
         <p className={`sectionSubText text-center`}>What I have been building and achieving</p>
-        <h2 className={`sectionHeadText text-center`}>Highlights</h2>
+        <h2 className={`sectionHeadText text-center text-transparent bg-clip-text bg-gradient-to-r from-accentCyan to-accentPink drop-shadow-[0_0_10px_rgba(0,243,255,0.3)]`}>Highlights</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline lineColor="#00c8ffeb">
+        <VerticalTimeline lineColor="#ffffff">
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}

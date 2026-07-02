@@ -1,4 +1,4 @@
-import GithubIcon from "./../public/assets/icons/github.svg";
+import GithubIcon from "./../public/assets/icons/github copy.svg";
 import LinkedInIcon from "./../public/assets/icons/linkedin.svg";
 import InstagramIcon from "./../public/assets/icons/instagram.svg";
 import BackendIcon from "./../public/assets/icons/backend.svg";
