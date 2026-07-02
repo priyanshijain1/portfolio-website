@@ -283,6 +283,37 @@ const projects = [
     deployed_link: "https://thinkspire.vercel.app/",
   },
   {
+    name: "Brulee",
+    description:
+      "Molecular flavor pairing engine. Enter ingredients you have on hand; Brulee scores potential pairings by shared flavor compoundsons.",
+    tags: [
+      { name: "react.js", color: "blue-text-gradient" },
+      { name: "TypeScript", color: "orange-text-gradient" },
+      { name: "fastapi", color: "green-text-gradient" },
+      { name: "sqlite", color: "pink-text-gradient" },
+      { name: "groq api", color: "orange-text-gradient" },
+      { name: "flavorDB", color: "green-text-gradient" },
+    ],
+    image: "/assets/projects/brulee.png",
+    source_code_link: "https://github.com/priyanshijain1/Brulee",
+    deployed_link: "https://brulee-hazel.vercel.app/",
+  },
+  {
+    name: "PennyWise",
+    description:
+      "Full-stack MERN expense tracker with AI-powered insights, natural language chat, and receipt OCR.",
+    tags: [
+      { name: "react.js", color: "blue-text-gradient" },
+      { name: "express.js", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
+      { name: "groq api", color: "orange-text-gradient" },
+
+    ],
+    image: "/assets/projects/pennywise.png",
+    source_code_link: "https://github.com/priyanshijain1/PennyWise",
+    deployed_link: "https://pennywise-u38o.onrender.com/",
+  },
+  {
     name: "InternHub",
     description:
       "Full-stack platform tracking internships & detecting fraudulent listings. Built an AI pipeline extracting structured data from 300+ emails, reducing manual processing by 70%.",
@@ -292,22 +323,23 @@ const projects = [
       { name: "sqlite", color: "pink-text-gradient" },
       { name: "gemini api", color: "orange-text-gradient" },
     ],
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+    image: "/assets/projects/internhub.png",
     source_code_link: "https://github.com/priyanshijain1/InternHub",
     deployed_link: "#",
   },
   {
-    name: "PennyWise",
+    name: "CivicSync",
     description:
-      "Expense tracker with JWT authentication. Designed analytics dashboards with date-based filtering and optimized MongoDB queries using indexing.",
+      "Building a civic complaint resolution platform that lets citizens report issues. AI will auto-categorize, de-duplicate, and route complaints to the correct municipal department.",
     tags: [
-      { name: "react.js", color: "blue-text-gradient" },
-      { name: "express.js", color: "green-text-gradient" },
-      { name: "mongodb", color: "pink-text-gradient" },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "node.js", color: "green-text-gradient" },
+      { name: "PostgreSQL", color: "pink-text-gradient" },
+      { name: "LLM api", color: "orange-text-gradient" },
     ],
-    image: "/assets/projects/pennywise.png",
-    source_code_link: "https://github.com/priyanshijain1/PennyWise",
-    deployed_link: "https://pennywise-u38o.onrender.com/",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+    source_code_link: "https://github.com/priyanshijain1/CivicSync",
+    deployed_link: "#",
   },
   {
     name: "StarBoard",
